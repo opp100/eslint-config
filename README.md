@@ -1,2 +1,2 @@
 # eslint-rules
-The Eslint rules
+The Preferred eslint rules for TypeScript.
