@@ -6,6 +6,10 @@ module.exports = {
         ...rules,
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
+        "react/sort-comp": "off",
+        "react/destructuring-assignment": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/no-array-index-key": "off",
     },
     overrides: [
         {

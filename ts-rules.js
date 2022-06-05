@@ -10,7 +10,7 @@ module.exports = {
             SwitchCase: 1,
         },
     ],
-    "max-len": ["error", 100, 4, baseStyleRules["max-len"][3]],
+    "max-len": ["error", 120, 4, baseStyleRules["max-len"][3]],
     "linebreak-style": "off",
     "prefer-const": "off",
     "no-underscore-dangle": "off",
@@ -21,17 +21,12 @@ module.exports = {
     "no-minusminus": "off",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-floating-promises": "error",
+    "import/prefer-default-export": "off",
+    "no-floating-promises": "off",
     "no-void": [
         "error",
         {
             allowAsStatement: true,
-        },
-    ],
-    "@typescript-eslint/strict-boolean-expressions": [
-        "error",
-        {
-            allowString: false,
-            allowNumber: false,
         },
     ],
     "@typescript-eslint/comma-dangle": [
