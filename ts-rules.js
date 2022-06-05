@@ -1,7 +1,6 @@
 const {
     rules: baseStyleRules,
 } = require("eslint-config-airbnb-base/rules/style");
-const airbnbBaseTypescript = require("eslint-config-airbnb-typescript/lib/shared");
 
 module.exports = {
     "@typescript-eslint/indent": [
