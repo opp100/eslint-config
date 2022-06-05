@@ -20,9 +20,9 @@ module.exports = {
     "no-plusplus": "off",
     "no-minusminus": "off",
     "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/no-floating-promises": "error",
     "import/prefer-default-export": "off",
     "no-floating-promises": "off",
+    "@typescript-eslint/no-floating-promises": "off",
     "no-void": [
         "error",
         {
@@ -46,5 +46,7 @@ module.exports = {
         },
     ],
     "@typescript-eslint/no-inferrable-types": "off",
-    "max-lines": ["error", 1000],
+    "max-lines": ["error", 500],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
 };
