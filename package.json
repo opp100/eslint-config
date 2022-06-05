@@ -1,6 +1,6 @@
 {
   "name": "@opp100/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The Preferred Eslint rules",
   "main": "index.js",
   "scripts": {
